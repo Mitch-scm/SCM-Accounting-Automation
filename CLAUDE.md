@@ -17,6 +17,7 @@ Quickbooks/
 
 ## Conventions
 
+- **Read-only mode** — only use query and report tools (no create/edit/delete) until explicitly told otherwise
 - **Do not edit files inside `quickbooks-mcp/`** — treat it as a dependency
 - **Never commit `.env`** — it contains secrets; `.gitignore` excludes it
 - **Draft mode is default** — all QBO write operations preview before committing; set `draft: false` only when explicitly confirmed
