@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "quickbooks": {
-      "command": "node",
-      "args": ["quickbooks-mcp/dist/index.js"]
+      "command": "npx",
+      "args": ["dotenv", "-e", ".env", "--", "node", "quickbooks-mcp/dist/index.js"]
     }
   }
 }

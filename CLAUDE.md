@@ -30,6 +30,7 @@ The QuickBooks MCP server (`quickbooks-mcp/`) provides these key tools:
 - `qbo_authenticate` — OAuth setup
 - `query` — SQL-like queries across all QBO entities
 - `get_profit_loss`, `get_balance_sheet`, `get_trial_balance` — financial reports
+- `get_profit_loss_detail` — detailed P&L with individual transactions (date, payee, amount, memo)
 - `create_*` / `edit_*` / `get_*` — CRUD for journal entries, bills, expenses, invoices, deposits, sales receipts, vendor credits
 - `delete_entity` — delete any transaction
 
